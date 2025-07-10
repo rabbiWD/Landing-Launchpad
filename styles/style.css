@@ -54,3 +54,45 @@ body{
     margin-bottom: 37px;
     
 }
+
+/* action styles */
+.action-section{
+    background-color: #FFFFFF;
+    margin-top: 152px;
+}
+
+.action{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 125px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-item{
+    width: 56%;
+}
+
+.action-img{
+    width: 35%;
+    height: 250px;
+}
+
+.image{
+    border-radius: 48px;
+}
+
+.action-title{
+    /* margin-top: 178px; */
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.action-desc{
+    font-size: 20px;
+    color: #7b7b7d;
+    margin-bottom: 23px;
+}
