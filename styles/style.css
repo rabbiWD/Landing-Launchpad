@@ -205,3 +205,38 @@ header{
     color: #B3B3B3;
     font-size: 16px;
 }
+
+/* template styles */
+.template-section{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 137px;
+}
+
+.template{
+    background-color: #F2EDED;
+    padding: 71px 150px;
+    border-radius: 14px;
+}
+
+.template-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.template-desc{
+    font-size: 16px;
+    color: #8d8c8c;
+    margin-bottom: 20px;
+}
+
+.btn-bg2{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.template-img{
+    border-radius: 48px;
+}
