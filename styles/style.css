@@ -5,5 +5,52 @@
 }
 
 /* shared style */
+.btn-primary{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 36px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+body{
+    background-image: url(../Assets/Hero-bg.png);
+    background-size: cover;
+}
 
 /* nav styles */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.nav-logo{
+    font-family: "Inter", sans-serif !important; 
+    font-size: 34px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
+
+/* hero styles */
+
+.hero{
+    margin-top: 158px;
+}
+
+.hero-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 37px;
+    
+}
