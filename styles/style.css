@@ -290,7 +290,7 @@ header{
 
 label, input, textarea{
     font-family: "Inter", sans-serif !important; 
-    font-weight: bold;
+    font-weight: 500;
 }
 
 form input[type="text"], form input[type="email"], form textarea{
