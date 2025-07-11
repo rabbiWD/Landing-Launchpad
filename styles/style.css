@@ -15,7 +15,26 @@
     padding: 12px 36px;
 }
 
+.btn-secondary{
+    background-color: #4E47FF;
+    width: 490px;
+    height: 62px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 36px;
+}
+
 .btn-primary:hover{
+    background-color: #191719;
+    transition: 2sec;
+    color: #1ecc98;
+    cursor: pointer;
+}
+
+.btn-secondary:hover{
     background-color: #191719;
     transition: 2sec;
     color: #1ecc98;
@@ -239,4 +258,47 @@ header{
 
 .template-img{
     border-radius: 48px;
+}
+
+/* form styles */
+.form-section{
+     max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 93px;
+}
+
+.form-desc{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 72px;
+    gap: 100px;
+    align-items: center;
+}
+
+.forms{
+    width: 60%;
+}
+
+.form-item{
+    width: 40%;
+}
+
+label, input, textarea{
+    font-family: "Inter", sans-serif !important; 
+}
+
+form input[type="text"], form input[type="email"], form textarea{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #F2EDED;
+    display: block;
+    width: 108%;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: none;
+}
+
+.form-title{
+    font-size: 90px;
+    font-weight: bold;
 }
