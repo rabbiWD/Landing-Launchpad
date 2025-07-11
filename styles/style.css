@@ -5,6 +5,10 @@
 }
 
 /* shared style */
+.dark-1{
+    color: #8987A1;
+}
+
 .btn-primary{
     background-color: #4E47FF;
     color: #FFFFFF;
@@ -25,6 +29,7 @@
     border-radius: 10px;
     border: none;
     padding: 12px 36px;
+    margin-bottom: 70px;
 }
 
 .btn-primary:hover{
@@ -285,6 +290,7 @@ header{
 
 label, input, textarea{
     font-family: "Inter", sans-serif !important; 
+    font-weight: bold;
 }
 
 form input[type="text"], form input[type="email"], form textarea{
@@ -294,11 +300,53 @@ form input[type="text"], form input[type="email"], form textarea{
     display: block;
     width: 108%;
     padding: 10px 20px;
-    margin: 20px 0;
+    margin: 10px 0;
     border: none;
 }
 
 .form-title{
     font-size: 92px;
     font-weight: bold;
+}
+
+/* footer styles */
+.footer-section{
+    background-color: #efecec;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 14px;
+    padding: 104px 450px;
+}
+
+.footer-align{
+    padding: 20px;
+}
+
+.footer-title{
+    font-family: "Inter", sans-serif !important; 
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.footer-desc{
+    font-family: "Inter", sans-serif !important; 
+    font-size: 16px;
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+
+ .footer-items ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif !important; 
+    font-size: 16px;
 }
